@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0ccd48ad8b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/profile.css">
+    <title>Edit Profile</title>
+</head>
+
+<body>
+    <section class="edit_profile">
+        <a href="./userDash.html" class="back_icon"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+        <h1>Edit Profile</h1>
+        <form class="edit_profile-form" action="">
+            <div class="form_groups">
+                <div class="form_group">
+                    <label class="form-label" for="first_name">Full name</label>
+                    <input class="form-input" type="text" id="full_name" placeholder="Full name">
+                </div>
+                <div class="form_group">
+                    <label class="form-label" for="last_name">Father name</label>
+                    <input class="form-input" type="text" id="father_name" placeholder="Father name">
+                </div>
+            </div>
+            <div class="form_groups">
+                <div class="form_group">
+                    <label class="form-label" for="dob">DOB</label>
+                    <input class="form-input" type="date" id="dob">
+                </div>
+                <div class="form_group">
+                    <label class="form-label" for="gender">Gender</label>
+                    <select class="form-input" name="options" id="gender">
+                        <option value="">SELECT</option>
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form_groups">
+                <div class="form_group">
+                    <label class="form-label" for="address">Permanent Address</label>
+                    <input class="form-input" type="text" id="address" placeholder="Permanent Address">
+                </div>
+            </div>
+            <div class="form_groups">
+                <div class="form_group">
+                    <label class="form-label" for="present_address">Present Address</label>
+                    <input class="form-input" type="text" id="present_address" placeholder="Present Address">
+                </div>
+            </div>
+            <div class="form_groups">
+                <div class="form_group">
+                    <label class="form-label" for="pan_number">PAN Number</label>
+                    <input class="form-input" type="number" id="pan_number" placeholder="PAN number">
+                </div>
+                <div class="form_group">
+                    <label class="form-label" for="phone">Phone</label>
+                    <input class="form-input" type="number" id="phone" placeholder="Phone Number">
+                </div>
+            </div>
+            <div class="form_groups">
+                <div class="form_group">
+                    <label class="form-label" for="type">Account Type</label>
+                    <select id="type" class="form-input">
+                        <option value="customer">Customer</option>
+                        <option value="administrator">Administrator</option>
+                    </select>
+                </div>
+                <div class="form_group">
+                    <label class="form-label" for="balance">Opening Balance</label>
+                    <input class="form-input" type="number" id="balance" placeholder="Opening Balance">
+                </div>
+            </div>
+            <div class="form_groups">
+                <div class="form_group">
+                    <label class="form-label" for="customer_id">Customer Id</label>
+                    <input class="form-input" type="number" id="customer_id" placeholder="Customer Id">
+                </div>
+                <div class="form_group">
+                    <label class="form-label" for="balance">Account Number</label>
+                    <input class="form-input" type="number" id="account_number" placeholder="Account Number">
+                </div>
+            </div>
+            <strong>Change Password</strong>
+            <div class="form_groups">
+                <div class="form_group">
+                    <label class="form-label" for="password">Password</label>
+                    <input class="form-input" type="password" id="password" placeholder="Password">
+                </div>
+                <div class="form_group">
+                    <label class="form-label" for="last_name">Confirm Passwrod</label>
+                    <input class="form-input" type="password" id="last_name" placeholder="Confirm Passwrod">
+                </div>
+            </div>
+            <div class="form_btns">
+                <button class="form_btn form_btn-save" type="submit">Save</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

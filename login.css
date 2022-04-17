@@ -78,6 +78,15 @@ body{
     margin-bottom: 0.7rem;
     border: 1px solid var(--Grey-dark-3);
 }
+.form_group > select{
+    width: 70%;
+    padding: 0.6rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    margin-bottom: 0.7rem;
+    border: 1px solid var(--Grey-dark-3);
+}
 .form_group > span{
     padding: 0.5rem 1.5rem;
 }

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/0ccd48ad8b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/adminDash.css">
+    <title>Administrator Dashboard</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="header_left">
+            <img src="../image/logoipsum-logo-35.svg" alt="">
+            <span>XYZ Bank</span>
+        </div>
+        <div class="header_right">
+            <img src="../image/user.png" alt="">
+            <a href="./profile.html">Admin</a>
+        </div>
+    </section>
+    <section class="dash">
+        <div class="dash_left">
+            <ul>
+                <a class="active" href="#">Create new user</a>
+                <a href="#">Log-out</a>
+            </ul>
+        </div>
+        <div class="dash_right">
+            <span>Create new User</span>
+            <form action="">
+                <div class="form_grp">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="" placeholder="Enter full name..." required>
+                </div>
+                <div class="form_grp">
+                    <label for="dob">DOB</label>
+                    <input type="date" name="dob" id="dob" placeholder="Enter DOB..." required>
+                </div>
+                <div class="form_grp">
+                    <label for="pan">PAN Card Number</label>
+                    <input type="text" name="pan" id="pan" placeholder="Enter PAN Card..." required>
+                </div>
+                <div class="form_grp">
+                    <label for="address">Full Address</label>
+                    <input type="text" name="address" id="address" placeholder="Enter address...">
+                </div>
+                <div class="form_grp">
+                    <label for="branch">Branch Name</label>
+                    <input type="text" name="branch" id="branch" placeholder="Enter branch name...">
+                </div>
+                <div class="form_grp">
+                    <label for="balance">Opening Balance</label>
+                    <input type="text" name="balance" id="balance" placeholder=" Enter balance name...">
+                </div>
+                <div class="submitbtn">
+                    <a href="./Pages/adminDash.html">CREATE</a>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
